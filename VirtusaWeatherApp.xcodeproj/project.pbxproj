@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B203521729D36200003D8C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203521629D36200003D8C76 /* AppDelegate.swift */; };
+		B203521929D36200003D8C76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203521829D36200003D8C76 /* SceneDelegate.swift */; };
+		B203521B29D36200003D8C76 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203521A29D36200003D8C76 /* WeatherViewController.swift */; };
+		B203521E29D36200003D8C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B203521C29D36200003D8C76 /* Main.storyboard */; };
+		B203522029D36201003D8C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B203521F29D36201003D8C76 /* Assets.xcassets */; };
+		B203522329D36201003D8C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B203522129D36201003D8C76 /* LaunchScreen.storyboard */; };
+		B203522E29D36202003D8C76 /* VirtusaWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203522D29D36202003D8C76 /* VirtusaWeatherAppTests.swift */; };
+		B203523829D36202003D8C76 /* VirtusaWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203523729D36202003D8C76 /* VirtusaWeatherAppUITests.swift */; };
+		B203523A29D36202003D8C76 /* VirtusaWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203523929D36202003D8C76 /* VirtusaWeatherAppUITestsLaunchTests.swift */; };
+		B203524829D369E2003D8C76 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203524729D369E2003D8C76 /* WeatherData.swift */; };
+		B203524A29D369EE003D8C76 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203524929D369EE003D8C76 /* WeatherResponse.swift */; };
+		B203524D29D36A5D003D8C76 /* WeatherDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203524C29D36A5D003D8C76 /* WeatherDataViewModel.swift */; };
+		B203525029D36D9B003D8C76 /* APINetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203524F29D36D9B003D8C76 /* APINetwork.swift */; };
+		B203525329D37035003D8C76 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203525229D37035003D8C76 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B203522A29D36202003D8C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B203520B29D36200003D8C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B203521229D36200003D8C76;
+			remoteInfo = VirtusaWeatherApp;
+		};
+		B203523429D36202003D8C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B203520B29D36200003D8C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B203521229D36200003D8C76;
+			remoteInfo = VirtusaWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B203521329D36200003D8C76 /* VirtusaWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtusaWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B203521629D36200003D8C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B203521829D36200003D8C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B203521A29D36200003D8C76 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		B203521D29D36200003D8C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B203521F29D36201003D8C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B203522229D36201003D8C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B203522429D36201003D8C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B203522929D36202003D8C76 /* VirtusaWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B203522D29D36202003D8C76 /* VirtusaWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaWeatherAppTests.swift; sourceTree = "<group>"; };
+		B203523329D36202003D8C76 /* VirtusaWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B203523729D36202003D8C76 /* VirtusaWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaWeatherAppUITests.swift; sourceTree = "<group>"; };
+		B203523929D36202003D8C76 /* VirtusaWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B203524729D369E2003D8C76 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		B203524929D369EE003D8C76 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		B203524C29D36A5D003D8C76 /* WeatherDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataViewModel.swift; sourceTree = "<group>"; };
+		B203524F29D36D9B003D8C76 /* APINetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetwork.swift; sourceTree = "<group>"; };
+		B203525229D37035003D8C76 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B203521029D36200003D8C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203522629D36202003D8C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203523029D36202003D8C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B203520A29D36200003D8C76 = {
+			isa = PBXGroup;
+			children = (
+				B203521529D36200003D8C76 /* VirtusaWeatherApp */,
+				B203522C29D36202003D8C76 /* VirtusaWeatherAppTests */,
+				B203523629D36202003D8C76 /* VirtusaWeatherAppUITests */,
+				B203521429D36200003D8C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B203521429D36200003D8C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B203521329D36200003D8C76 /* VirtusaWeatherApp.app */,
+				B203522929D36202003D8C76 /* VirtusaWeatherAppTests.xctest */,
+				B203523329D36202003D8C76 /* VirtusaWeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B203521529D36200003D8C76 /* VirtusaWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				B203524E29D36D7B003D8C76 /* NetworkManager */,
+				B203524629D369B8003D8C76 /* Models */,
+				B203524B29D36A3D003D8C76 /* ViewModel */,
+				B203521629D36200003D8C76 /* AppDelegate.swift */,
+				B203521829D36200003D8C76 /* SceneDelegate.swift */,
+				B203521A29D36200003D8C76 /* WeatherViewController.swift */,
+				B203525129D3701C003D8C76 /* SupportFiles */,
+				B203521C29D36200003D8C76 /* Main.storyboard */,
+				B203521F29D36201003D8C76 /* Assets.xcassets */,
+				B203522129D36201003D8C76 /* LaunchScreen.storyboard */,
+				B203522429D36201003D8C76 /* Info.plist */,
+			);
+			path = VirtusaWeatherApp;
+			sourceTree = "<group>";
+		};
+		B203522C29D36202003D8C76 /* VirtusaWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B203522D29D36202003D8C76 /* VirtusaWeatherAppTests.swift */,
+			);
+			path = VirtusaWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		B203523629D36202003D8C76 /* VirtusaWeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B203523729D36202003D8C76 /* VirtusaWeatherAppUITests.swift */,
+				B203523929D36202003D8C76 /* VirtusaWeatherAppUITestsLaunchTests.swift */,
+			);
+			path = VirtusaWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		B203524629D369B8003D8C76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B203524729D369E2003D8C76 /* WeatherData.swift */,
+				B203524929D369EE003D8C76 /* WeatherResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B203524B29D36A3D003D8C76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B203524C29D36A5D003D8C76 /* WeatherDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B203524E29D36D7B003D8C76 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				B203524F29D36D9B003D8C76 /* APINetwork.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		B203525129D3701C003D8C76 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B203525229D37035003D8C76 /* Constant.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B203521229D36200003D8C76 /* VirtusaWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B203523D29D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherApp" */;
+			buildPhases = (
+				B203520F29D36200003D8C76 /* Sources */,
+				B203521029D36200003D8C76 /* Frameworks */,
+				B203521129D36200003D8C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtusaWeatherApp;
+			productName = VirtusaWeatherApp;
+			productReference = B203521329D36200003D8C76 /* VirtusaWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B203522829D36202003D8C76 /* VirtusaWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B203524029D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherAppTests" */;
+			buildPhases = (
+				B203522529D36202003D8C76 /* Sources */,
+				B203522629D36202003D8C76 /* Frameworks */,
+				B203522729D36202003D8C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B203522B29D36202003D8C76 /* PBXTargetDependency */,
+			);
+			name = VirtusaWeatherAppTests;
+			productName = VirtusaWeatherAppTests;
+			productReference = B203522929D36202003D8C76 /* VirtusaWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B203523229D36202003D8C76 /* VirtusaWeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B203524329D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherAppUITests" */;
+			buildPhases = (
+				B203522F29D36202003D8C76 /* Sources */,
+				B203523029D36202003D8C76 /* Frameworks */,
+				B203523129D36202003D8C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B203523529D36202003D8C76 /* PBXTargetDependency */,
+			);
+			name = VirtusaWeatherAppUITests;
+			productName = VirtusaWeatherAppUITests;
+			productReference = B203523329D36202003D8C76 /* VirtusaWeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B203520B29D36200003D8C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B203521229D36200003D8C76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B203522829D36202003D8C76 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B203521229D36200003D8C76;
+					};
+					B203523229D36202003D8C76 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B203521229D36200003D8C76;
+					};
+				};
+			};
+			buildConfigurationList = B203520E29D36200003D8C76 /* Build configuration list for PBXProject "VirtusaWeatherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B203520A29D36200003D8C76;
+			productRefGroup = B203521429D36200003D8C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B203521229D36200003D8C76 /* VirtusaWeatherApp */,
+				B203522829D36202003D8C76 /* VirtusaWeatherAppTests */,
+				B203523229D36202003D8C76 /* VirtusaWeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B203521129D36200003D8C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B203522329D36201003D8C76 /* LaunchScreen.storyboard in Resources */,
+				B203522029D36201003D8C76 /* Assets.xcassets in Resources */,
+				B203521E29D36200003D8C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203522729D36202003D8C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203523129D36202003D8C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B203520F29D36200003D8C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B203521B29D36200003D8C76 /* WeatherViewController.swift in Sources */,
+				B203524A29D369EE003D8C76 /* WeatherResponse.swift in Sources */,
+				B203525029D36D9B003D8C76 /* APINetwork.swift in Sources */,
+				B203525329D37035003D8C76 /* Constant.swift in Sources */,
+				B203521729D36200003D8C76 /* AppDelegate.swift in Sources */,
+				B203524D29D36A5D003D8C76 /* WeatherDataViewModel.swift in Sources */,
+				B203524829D369E2003D8C76 /* WeatherData.swift in Sources */,
+				B203521929D36200003D8C76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203522529D36202003D8C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B203522E29D36202003D8C76 /* VirtusaWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B203522F29D36202003D8C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B203523A29D36202003D8C76 /* VirtusaWeatherAppUITestsLaunchTests.swift in Sources */,
+				B203523829D36202003D8C76 /* VirtusaWeatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B203522B29D36202003D8C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B203521229D36200003D8C76 /* VirtusaWeatherApp */;
+			targetProxy = B203522A29D36202003D8C76 /* PBXContainerItemProxy */;
+		};
+		B203523529D36202003D8C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B203521229D36200003D8C76 /* VirtusaWeatherApp */;
+			targetProxy = B203523429D36202003D8C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B203521C29D36200003D8C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B203521D29D36200003D8C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B203522129D36201003D8C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B203522229D36201003D8C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B203523B29D36202003D8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B203523C29D36202003D8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B203523E29D36202003D8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtusaWeatherApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B203523F29D36202003D8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtusaWeatherApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B203524129D36202003D8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtusaWeatherApp";
+			};
+			name = Debug;
+		};
+		B203524229D36202003D8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtusaWeatherApp";
+			};
+			name = Release;
+		};
+		B203524429D36202003D8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtusaWeatherApp;
+			};
+			name = Debug;
+		};
+		B203524529D36202003D8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QSB8WXYF3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Virtusa.co.VirtusaWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtusaWeatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B203520E29D36200003D8C76 /* Build configuration list for PBXProject "VirtusaWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B203523B29D36202003D8C76 /* Debug */,
+				B203523C29D36202003D8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B203523D29D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B203523E29D36202003D8C76 /* Debug */,
+				B203523F29D36202003D8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B203524029D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B203524129D36202003D8C76 /* Debug */,
+				B203524229D36202003D8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B203524329D36202003D8C76 /* Build configuration list for PBXNativeTarget "VirtusaWeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B203524429D36202003D8C76 /* Debug */,
+				B203524529D36202003D8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B203520B29D36200003D8C76 /* Project object */;
+}

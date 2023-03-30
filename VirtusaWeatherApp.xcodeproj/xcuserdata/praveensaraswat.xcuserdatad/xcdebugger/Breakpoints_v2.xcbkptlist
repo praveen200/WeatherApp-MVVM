@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B889B29B-BEE6-4563-9E6F-CB93B9052393"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D37CFD82-8057-41AD-B5E3-D7A4976C9983"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F02BAA46-3CE8-4EC8-BB57-388009952611"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchCurrentDayData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BBE583B-3113-43C9-BBBD-182B51466C8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getWeatherDaily(city:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "622D22DB-B99F-4263-9DEA-2620B04C7C2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getWeatherDaily(city:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "622D22DB-B99F-4263-9DEA-2620B04C7C2A - 11552009dfed3ee6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;VirtusaWeatherApp.WeatherResponse, VirtusaWeatherApp.NetworkError&gt;) -&gt; () in VirtusaWeatherApp.WeatherDataViewModel.getWeatherDaily(city: Swift.String, for: Swift.String) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "622D22DB-B99F-4263-9DEA-2620B04C7C2A - cff6f79a339d856b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;VirtusaWeatherApp.WeatherResponse, VirtusaWeatherApp.NetworkError&gt;) -&gt; () in VirtusaWeatherApp.WeatherDataViewModel.getWeatherDaily(city: Swift.String, for: Swift.String) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41398061-A5CF-4FCF-A12D-48C96F3D15A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getWeatherDaily(city:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41398061-A5CF-4FCF-A12D-48C96F3D15A9 - ebc4ead3b0b3482"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VirtusaWeatherApp.WeatherDataViewModel.getWeatherDaily(city: Swift.String, for: Swift.String) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "41398061-A5CF-4FCF-A12D-48C96F3D15A9 - 11552009dfed3e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;VirtusaWeatherApp.WeatherResponse, VirtusaWeatherApp.NetworkError&gt;) -&gt; () in VirtusaWeatherApp.WeatherDataViewModel.getWeatherDaily(city: Swift.String, for: Swift.String) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DBEB742-CC03-46D6-A4C5-6B2212D128E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchWeather(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1AE0466-7F59-41E4-8830-181A9F740CB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchWeather(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20E7DD00-8C18-44B0-8E18-5AECF8D88479"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchWeather(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20E7DD00-8C18-44B0-8E18-5AECF8D88479 - 227005e525b84e06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static VirtusaWeatherApp.NetworkManager.fetchWeather(for: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, VirtusaWeatherApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "20E7DD00-8C18-44B0-8E18-5AECF8D88479 - 227005e525b84e06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static VirtusaWeatherApp.NetworkManager.fetchWeather(for: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, VirtusaWeatherApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "876">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DE72AA0-31DD-46E5-B565-EBB301D9E8E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchCurrentDayData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77DB8595-82AE-4863-992E-3AF359CBF5E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchCurrentDayData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "789C09A8-3463-4D87-94C8-DF2F73CDACA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchCurrentDayData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "836D5210-A786-45A1-8087-CD6212964891"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getWeatherIconFor(icon:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9899DC12-15E5-4905-A185-2BADEF43E261"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchWeather(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFFFBB49-2341-45CE-BB6D-40BB1BE3EC72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchWeather(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFFFBB49-2341-45CE-BB6D-40BB1BE3EC72 - 6028d370bb28d526"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VirtusaWeatherApp.NetworkManager.fetchWeather(for: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, VirtusaWeatherApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "DFFFBB49-2341-45CE-BB6D-40BB1BE3EC72 - 227005e525b84d5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static VirtusaWeatherApp.NetworkManager.fetchWeather(for: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, VirtusaWeatherApp.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtusaWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/praveensaraswat/Desktop/Vertusa/VirtusaWeatherApp/VirtusaWeatherApp/NetworkManager/APINetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE52B8F6-64F1-4742-86C6-E7AE0CA6A74F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getWeatherDaily(city:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D6CE0BB-B0FC-44CC-B783-64AA90CBB397"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtusaWeatherApp/ViewModel/WeatherDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getWeatherDaily(city:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
